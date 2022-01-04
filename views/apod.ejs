@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+
+<center>
+    <img id="apod-img" src="<%= url %>" alt="If this doesn't show up then click the button"> <br>
+    <a target="blank" href="<%= url %>">Click</a>
+    <p id="apod-text"><%=date%></p>
+    <p id="apod-text"  style="font-size: 1.5rem;">
+    <%= title %>
+    </p>
+    <p id="apod-text">
+    <%= exp %>
+    </p>
+</center>
+
+
+
+<%- include("partials/footer") %>

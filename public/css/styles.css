@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+    background-color: #000000;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+footer {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    background-color: #000000;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+  }
+
+.text-center {
+    color: black;
+    color: white;
+}
+
+#fot-text {
+    color: white;
+}
+
+#nav-text {
+    color: white;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 35px;
+}
+
+#fact-text {
+    color: white;
+    text-align: center;
+}
+
+#con-content {
+    margin-bottom: 20px;
+}
+
+#apod-text {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#apod-img {
+    width: 80%;
+    height: 500px;
+}
+
+
+#mars-img {
+    height: 10  rem;
+    width: 80%;
+}
+
+#mars-text {
+    font-size: 1.3rem;
+    color: white;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+#about-heading {
+    color:#78C0A8;
+}
+
+
+#about-text {
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+/* Blockquote CSS */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.4em;
+  width:80%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: white;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+#context-text {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
