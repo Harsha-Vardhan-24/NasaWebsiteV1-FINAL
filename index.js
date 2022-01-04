@@ -88,6 +88,6 @@ app.get("/about", function(req, res){
     res.render("about")
 });
 
-const PORT = process.env.PORT || "8080"
-
-app.set("port", PORT);
+app.listen(port, function () {
+    console.log("@ working");
+})
