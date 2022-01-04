@@ -15,7 +15,7 @@ var month = dateObj.getUTCMonth() + 1; //months from 1-12
 var day = dateObj.getUTCDate();
 var year = dateObj.getUTCFullYear();
 
-const port = 3000 || process.env.PORT
+const port = process.env.PORT || 3000
 
 
 app.get("/", function(req, res){
